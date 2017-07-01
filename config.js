@@ -51,7 +51,7 @@ var config = {
     },
     litecoin: {
       provider: 'insight',
-      url: 'http://explorer.litecoin.net',
+      url: 'https://insight.litecore.io',
     },
     dogecoin: {
       provider: 'insight',
