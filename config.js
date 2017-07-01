@@ -49,6 +49,14 @@ var config = {
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
     },
+    litecoin: {
+      provider: 'insight',
+      url: 'http://explorer.litecoin.net',
+    },
+    dogecoin: {
+      provider: 'insight',
+      url: 'http://dogechain.info',
+    },        
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',

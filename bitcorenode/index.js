@@ -87,17 +87,19 @@ Service.prototype._getConfiguration = function() {
   // A bitcore-node is either livenet or testnet, so we'll pass
   // the configuration options to communicate via the local running
   // instance of the insight-api service.
-  if (self.node.network === Networks.livenet) {
-    baseConfig.blockchainExplorerOpts = {
-      livenet: providerOptions
-    };
-  } else if (self.node.network === Networks.testnet) {
-    baseConfig.blockchainExplorerOpts = {
-      testnet: providerOptions
-    };
-  } else {
-    throw new Error('Unknown network');
-  }
+  // if (self.node.network === Networks.livenet) {
+  //   baseConfig.blockchainExplorerOpts = {
+  //     livenet: providerOptions
+  //   };
+  // } else if (self.node.network === Networks.testnet) {
+  //   baseConfig.blockchainExplorerOpts = {
+  //     testnet: providerOptions
+  //   };
+  // } else {
+  //   throw new Error('Unknown network');
+  // }
+  baseConfig.blockchainExplorerOpts = {}
+  baseConfig.blockChainExplorerOpts[self.node.network] = providerOptions
 
   return baseConfig;
 
