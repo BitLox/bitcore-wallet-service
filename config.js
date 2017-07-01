@@ -54,8 +54,8 @@ var config = {
       url: 'https://insight.litecore.io',
     },
     dogecoin: {
-      provider: 'insight',
-      url: 'http://dogechain.info',
+      provider: 'chainso',
+      url: 'https://chain.so',
     },        
   },
   pushNotificationsOpts: {
