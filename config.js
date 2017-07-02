@@ -53,10 +53,14 @@ var config = {
       provider: 'insight',
       url: 'https://insight.litecore.io',
     },
-    dogecoin: {
-      provider: 'chainso',
-      url: 'https://chain.so',
+    aureus: {
+      provider: 'insight',
+      url: 'https://insight.aureus.cc',
     },        
+    deuscoin: {
+      provider: 'insight',
+      url: 'https://insight.deuscoin.org',
+    },      
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
