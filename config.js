@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://explorer.bitlox.com:443',
+      url: 'http://explorer.bitlox.com',
     },
     testnet: {
       provider: 'insight',
