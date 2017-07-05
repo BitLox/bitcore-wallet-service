@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://btm.bitlox.com',
+      url: 'https://insight.bitpay.com:443',
     },
     testnet: {
       provider: 'insight',
@@ -48,7 +48,7 @@ var config = {
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
-    }   
+    }    
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
