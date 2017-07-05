@@ -57,7 +57,7 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  livenet: 'https://insight.bitpay.com/tx/{{txid}}',
+                  livenet: 'https://bitlox.io/tx/{{txid}}',
                   testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
                 },
               },
@@ -472,7 +472,7 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  livenet: 'https://insight.bitpay.com/tx/{{txid}}',
+                  livenet: 'https://bitlox.io/tx/{{txid}}',
                   testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
                 },
               },
