@@ -49,10 +49,6 @@ var config = {
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
     },
-    litecoin: {
-      provider: 'insight',
-      url: 'https://insight.litecore.io',
-    },
     aureus: {
       provider: 'insight',
       url: 'https://insight.aureus.cc',
