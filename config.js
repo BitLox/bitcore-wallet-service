@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://explorer.bitlox.com',
+      url: 'https://btm.bitlox.com',
     },
     testnet: {
       provider: 'insight',
