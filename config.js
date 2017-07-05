@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      url: 'https://explorer.bitlox.com:443',
     },
     testnet: {
       provider: 'insight',
@@ -48,15 +48,7 @@ var config = {
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
-    },
-    aureus: {
-      provider: 'insight',
-      url: 'https://insight.aureus.cc',
-    },        
-    deuscoin: {
-      provider: 'insight',
-      url: 'https://insight.deuscoin.org',
-    },      
+    }   
   },
   pushNotificationsOpts: {
     templatePath: './lib/templates',
