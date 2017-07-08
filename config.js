@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://localhost:3001/insight',
+      url: 'http://localhost:3001',
       apiPrefix: '/insight-api'
     },
     testnet: {
